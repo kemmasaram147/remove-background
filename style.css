@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@100;300;500;700;900&family=Rubik+Moonrocks&family=Rye&display=swap');
+body{
+    place-items: center;
+    min-height: 100vh;
+    background: linear-gradient(238.72deg, #FFB864 0%, #006C4C 100%), radial-gradient(100% 224.43% at 0% 0%, #6CFF72 0%, #002C6D 100%), linear-gradient(121.28deg, #FFEAB6 0%, #00563C 100%), radial-gradient(56.26% 101.79% at 50% 0%, #8F00FF 0%, #000000 100%), linear-gradient(65.05deg, #6F0072 0%, #DBFFE5 100%);
+    background-blend-mode: overlay, screen, color-burn, screen, normal;
+    border: solid 3px black;
+}
+
+.text{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+.dow{
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: #0ce12c;
+    border-color: #0ce12c;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.dow:hover{
+    letter-spacing: 3px;
+}
+
+.fi{
+    font-size: 30px;
+    color: black;
+}
+
+.btn:hover{
+    letter-spacing: 3px;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    border: solid 2px white;
+    background-color: white;
+    box-shadow: black;
+}
+
+.logo span{
+    color: #ff0157;
+}
+.log{
+    color: black;
+    margin-left: 10px;
+}
+.sure{
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Moonrocks', sans-serif;
+font-family: 'Rye', serif;
+}
+.re{
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Moonrocks', sans-serif;
+font-family: 'Rye', serif;
+	font-size: 6rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+  
